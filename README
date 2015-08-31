@@ -1,0 +1,7 @@
+This was used as a shared workspace for the MVP team (myself, uncheckedshrimp and CooliestGerard) to build our scrabble game.
+
+/MVPScrabble contrains our version of the game
+
+/CompCode contains a version of the game written by our lecturer, for which we wrote a bot which could be played against others.
+/FastRobotScrabble contains a fast bot
+/RobotScrabble contains a slightly slower, but more comprehensive bot
