@@ -1,0 +1,117 @@
+
+___Player Testing:___
+
+Actual result: Harold
+Expected result: Harold
+*PASS* Player one's name has been set correctly!
+
+Actual result: Ted
+Expected result: Ted
+*PASS* Player two's name has been set correctly!
+
+Actual result 1: 0
+Actual result 2: 0
+Expected result: 0
+*PASS* Both players are initialised to score = 0
+
+Frame 1: |y 4||u 1||e 1||i 1||z 10||i 1||e 1|
+Frame 2: |k 5||t 1||l 1||p 3||j 8||n 1||r 1|
+*PASS* Players frames have been set correctly
+
+Actual result: 4
+Expected result: 4
+*PASS* The score incremented properly
+
+
+___Testing for frame___
+
+Actual result: false
+Expected result: false
+*PASS* Frame.isEmpty is working correctly
+
+Actual result: 7
+Expected result: 7
+*PASS* Get current tiles is working. frame full
+
+Building testFrame which contains 'bang'...
+|b 3||a 1||n 1||g 2||t 1||y 4||r 1|
+
+Returned ArrayList after checking for 'bang'
+[Letter: b	Score: 3, Letter: a	Score: 1, Letter: n	Score: 1, Letter: g	Score: 2]
+
+Actual result: 3
+Expected result: 3
+*PASS* Playing a word is working. removed 4 letters (bang)
+
+Removing the first tile from frame:
+Letter: t	Score: 1
+
+Actual result: 6
+Expected result: 6
+*PASS* First Tile successully removed
+
+Full frame after random re-filling:
+|y 4||r 1||s 1||h 4||o 1||g 2||t 1|
+
+Actual result: 7
+Expected result: 7
+*PASS* fill frame is working, frame has 7 tiles
+
+
+___Pool Testing___
+
+Reseting pool for testing
+
+Actual result: 100
+Expected result: 100
+*PASS* Pool is reset and full
+
+Actual result: a
+Expected result: a
+*PASS* Letter a was initialised correctly
+
+Actual result: 3
+Expected result: 3
+*PASS* Letter b's score was initialised correctly
+
+Actual result: false
+Expected result: false
+*PASS* Pool.isEmpty is working
+
+Removing random tile... 
+Random tile removed: Letter: e	Score: 1
+
+Actual result: 99
+Expected result: 99
+*PASS* NumTiles still is correct
+
+Reseting pool
+
+Actual result: 100
+Expected result: 100
+*PASS* NumTiles is correct, its back up to 100
+
+
+___Emptying Testing___
+
+Actual result: 4
+Expected result: 4
+*PASS* After deleting 96 tiles only 4 remain
+
+Playing 4 letter word
+
+Actual result: true
+Expected result: true
+*PASS* After playing 4 letter word frame is now empty
+
+Actual result: -1
+Expected result: -1
+*PASS* Fill frame returned correct error message when trying to fill from empty pool
+
+
+___Conclusion___
+
+Actual result: 19
+Expected result: 19
+ALL TESTS PASSED
+

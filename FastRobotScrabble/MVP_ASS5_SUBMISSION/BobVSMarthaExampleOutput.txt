@@ -1,0 +1,828 @@
+ ################################################
+#                                                #
+#    This is the output from BobVsMartha.jar     #
+#    It is completely autonomous.                #
+#                                                #
+ ################################################
+ 
+WELCOME TO SCRABBLE
+Bob draws a A
+Martha draws a E
+Bob starts
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.          2.           5
+ 6    3       3       3       3      6
+ 7      2       2   2       2        7
+ 8  3.    2       2.      2     3.   8
+ 9      2       2   2       2        9
+10    3       3       3       3     10
+11          2.          2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 0 points
+Martha 	 0 points
+Pool 	93 tiles
+Bob, your tiles are: L1 *0 G2 E1 U1 E1 N1 
+
+God I hate scrabble
+
+/n first timer yo /n
+Turn time: 0.204 seconds.
+Bobenters: 728 A dELUGE
+Word score 16
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.          2.           5
+ 6    3       3       3       3      6
+ 7      2       2   2       2        7
+ 8  3.    2       d E L U G E   3.   8
+ 9      2       2   2       2        9
+10    3       3       3       3     10
+11          2.          2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 16 points
+Martha 	 0 points
+Pool 	86 tiles
+Martha, your tiles are: O1 A1 E1 X8 T1 Q10 A1 
+
+Smells like winning!
+
+Turn time: 0.679 seconds.
+Marthaenters: 6910 D OXALATE
+Word score 32
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.        O 2.           5
+ 6    3       3       X       3      6
+ 7      2       2   2 A     2        7
+ 8  3.    2       d E L U G E   3.   8
+ 9      2       2   2 A     2        9
+10    3       3       T       3     10
+11          2.        E 2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 16 points
+Martha 	 32 points
+Pool 	80 tiles
+Bob, your tiles are: N1 R1 A1 R1 E1 G2 W4 
+
+Really?
+
+Turn time: 1.843 seconds.
+Bobenters: 755 A WAGERER
+Word score 44
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.        O 2.           5
+ 6    3       3       X       3      6
+ 7      2       2   2 A     2        7
+ 8  3.    2       d E L U G E   3.   8
+ 9      2       2   2 A     2        9
+10    3       3       T       3     10
+11          W A G E R E R           11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 60 points
+Martha 	 32 points
+Pool 	74 tiles
+Martha, your tiles are: Q10 S1 E1 P3 R1 I1 I1 
+
+Say my name say my name
+
+Turn time: 3.172 seconds.
+Marthaenters: 758 D EPRIS
+Word score 30
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.        O 2.           5
+ 6    3       3       X       3      6
+ 7      2       2   2 A     2        7
+ 8  3.    2       d E L U G E   3.   8
+ 9      2       2   2 A     2        9
+10    3       3       T       3     10
+11          W A G E R E R           11
+12  2     2.      P       2.    2   12
+13      2.      2 R 2       2.      13
+14    2.      3   I   3       2.    14
+15  3.    2       S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 60 points
+Martha 	 62 points
+Pool 	68 tiles
+Bob, your tiles are: N1 D2 L1 E1 T1 O1 D2 
+
+I just want to be friends
+
+Turn time: 4.925 seconds.
+Bobenters: 679 D DENOTED
+Word score 33
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3       3     O X       3      6
+ 7      2       2   T A     2        7
+ 8  3.    2       d E L U G E   3.   8
+ 9      2       2   D A     2        9
+10    3       3       T       3     10
+11          W A G E R E R           11
+12  2     2.      P       2.    2   12
+13      2.      2 R 2       2.      13
+14    2.      3   I   3       2.    14
+15  3.    2       S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 93 points
+Martha 	 62 points
+Pool 	64 tiles
+Martha, your tiles are: Q10 E1 I1 Z10 R1 B3 E1 
+
+This actually took us a while
+
+Turn time: 8.214 seconds.
+Marthaenters: 706 D ZERIBA
+Word score 43
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3       Z     O X       3      6
+ 7      2     E 2   T A     2        7
+ 8  3.    2   R   d E L U G E   3.   8
+ 9      2     I 2   D A     2        9
+10    3       B       T       3     10
+11          W A G E R E R           11
+12  2     2.      P       2.    2   12
+13      2.      2 R 2       2.      13
+14    2.      3   I   3       2.    14
+15  3.    2       S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 93 points
+Martha 	 105 points
+Pool 	58 tiles
+Bob, your tiles are: L1 I1 P3 A1 N1 S1 A1 
+
+Crappy tiles,,,
+
+Turn time: 12.317 seconds.
+Bobenters: 791 A SALPIANS
+Word score 89
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3       Z     O X       3      6
+ 7      2     E 2   T A     2        7
+ 8  3.    2   R   d E L U G E   3.   8
+ 9      2     I 2   D A     2        9
+10    3       B       T       3     10
+11          W A G E R E R           11
+12  2     2.      P       2.    2   12
+13      2.      2 R 2       2.      13
+14    2.      3   I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 182 points
+Martha 	 105 points
+Pool 	53 tiles
+Martha, your tiles are: Q10 E1 O1 O1 L1 J8 D2 
+
+Say my name say my name
+
+Turn time: 12.236 seconds.
+Marthaenters: 7111 D JUD
+Word score 26
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3       Z     O X       3      6
+ 7      2     E 2   T A J   2        7
+ 8  3.    2   R   d E L U G E   3.   8
+ 9      2     I 2   D A D   2        9
+10    3       B       T       3     10
+11          W A G E R E R           11
+12  2     2.      P       2.    2   12
+13      2.      2 R 2       2.      13
+14    2.      3   I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 182 points
+Martha 	 131 points
+Pool 	46 tiles
+Bob, your tiles are: I1 U1 A1 N1 B3 H4 C3 
+
+This is getting out of hand
+
+Turn time: 22.68 seconds.
+Bobenters: 777 A BRAUNCH
+Word score 36
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3       Z     O X       3      6
+ 7      2     E 2   T A J   2        7
+ 8  3.    2   R   d E L U G E   3.   8
+ 9      2     I 2   D A D   2        9
+10    3       B       T       3     10
+11          W A G E R E R           11
+12  2     2.      P       2.    2   12
+13      2.      B R A U N C H       13
+14    2.      3   I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 218 points
+Martha 	 131 points
+Pool 	44 tiles
+Martha, your tiles are: Q10 E1 O1 O1 L1 M3 R1 
+
+I dont like this
+
+Turn time: 12.938 seconds.
+Marthaenters: 752 D MOOLA
+Word score 14
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3       Z     O X       3      6
+ 7      2     E 2   T A J   2        7
+ 8  3.    2   R   d E L U G E   3.   8
+ 9      2     I 2   D A D   2        9
+10    3       B       T       3     10
+11    M     W A G E R E R           11
+12  2 O   2.      P       2.    2   12
+13    O 2.      B R A U N C H       13
+14    L       3   I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 218 points
+Martha 	 145 points
+Pool 	38 tiles
+Bob, your tiles are: I1 A1 I1 A1 E1 A1 C3 
+
+Mother told me it would be like this
+
+Turn time: 4.43 seconds.
+Bobenters: 704 A CAZ
+Word score 14
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   2        7
+ 8  3.    2   R   d E L U G E   3.   8
+ 9      2     I 2   D A D   2        9
+10    3       B       T       3     10
+11    M     W A G E R E R           11
+12  2 O   2.      P       2.    2   12
+13    O 2.      B R A U N C H       13
+14    L       3   I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 232 points
+Martha 	 145 points
+Pool 	34 tiles
+Martha, your tiles are: Q10 E1 R1 V4 K5 S1 U1 
+
+Its my first time, I swear
+
+Turn time: 23.795 seconds.
+Marthaenters: 761 A ROQUES
+Word score 55
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   2        7
+ 8  3.    2   R   d E L U G E   3.   8
+ 9      2     I 2   D A D   2        9
+10    3       B       T       3     10
+11    M     W A G E R E R           11
+12  R O Q U E S   P       2.    2   12
+13    O 2.      B R A U N C H       13
+14    L       3   I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 232 points
+Martha 	 200 points
+Pool 	32 tiles
+Bob, your tiles are: I1 I1 A1 E1 A1 O1 H4 
+
+CAN YOU FEEL THE LOVE TONIGHT?
+
+Turn time: 8.74 seconds.
+Bobenters: 786 A HOI
+Word score 32
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   2        7
+ 8  3.    2   R   d E L U G E   3.   8
+ 9      2     I 2   D A D   2        9
+10    3       B       T       3     10
+11    M     W A G E R E R           11
+12  R O Q U E S   P       2.    2   12
+13    O 2.      B R A U N C H       13
+14    L       H O I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 264 points
+Martha 	 200 points
+Pool 	27 tiles
+Martha, your tiles are: V4 K5 E1 L1 N1 V4 U1 
+
+Smells like winning!
+
+Turn time: 15.119 seconds.
+Marthaenters: 7113 D KEVEL
+Word score 21
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  3.    2   R   d E L U G E   3.   8
+ 9      2     I 2   D A D   V        9
+10    3       B       T     E 3     10
+11    M     W A G E R E R   L       11
+12  R O Q U E S   P       2.    2   12
+13    O 2.      B R A U N C H       13
+14    L       H O I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 264 points
+Martha 	 221 points
+Pool 	25 tiles
+Bob, your tiles are: I1 I1 A1 E1 A1 Y4 F4 
+
+Can I get a glass of water?
+
+Turn time: 9.59 seconds.
+Bobenters: 721 D FAYER
+Word score 37
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     2.      2 E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I 2   D A D   V        9
+10  Y 3       B       T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       2.    2   12
+13    O 2.      B R A U N C H       13
+14    L       H O I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 301 points
+Martha 	 221 points
+Pool 	21 tiles
+Martha, your tiles are: N1 V4 U1 S1 I1 N1 E1 
+
+Is it just me or is it warm in here?
+
+Turn time: 20.707 seconds.
+Marthaenters: 684 A VENINE
+Word score 20
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I 2   D A D   V        9
+10  Y 3       B       T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       2.    2   12
+13    O 2.      B R A U N C H       13
+14    L       H O I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 301 points
+Martha 	 241 points
+Pool 	17 tiles
+Bob, your tiles are: I1 I1 A1 F4 D2 I1 T1 
+
+Oh, its like that?
+
+Turn time: 9.302 seconds.
+Bobenters: 763 D QI
+Word score 26
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I 2   D A D   V        9
+10  Y 3       B       T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       2.    2   12
+13    O I       B R A U N C H       13
+14    L       H O I   3       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 327 points
+Martha 	 241 points
+Pool 	12 tiles
+Martha, your tiles are: U1 S1 T1 *0 T1 N1 I1 
+
+London Oranges!
+
+Turn time: 2.195 seconds.
+Marthaenters: 786 A HOIST
+Word score 16
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I 2   D A D   V        9
+10  Y 3       B       T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       2.    2   12
+13    O I       B R A U N C H       13
+14    L       H O I S T       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 327 points
+Martha 	 257 points
+Pool 	11 tiles
+Bob, your tiles are: I1 A1 F4 D2 I1 T1 M3 
+
+CAN YOU FEEL THE LOVE TONIGHT?
+
+Turn time: 23.983 seconds.
+Bobenters: 675 A TIMID
+Word score 24
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.  T I M I D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I 2   D A D   V        9
+10  Y 3       B       T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       2.    2   12
+13    O I       B R A U N C H       13
+14    L       H O I S T       2.    14
+15  S A L P I A N S       2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 351 points
+Martha 	 257 points
+Pool 	9 tiles
+Martha, your tiles are: U1 *0 T1 N1 I1 G2 O1 
+
+Is it supposed to look like that?
+
+Turn time: 4.645 seconds.
+Marthaenters: 7612 D sCOG
+Word score 16
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.  T I M I D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I 2   D A D   V        9
+10  Y 3       B       T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       s     2   12
+13    O I       B R A U N C H       13
+14    L       H O I S T   O   2.    14
+15  S A L P I A N S       G     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 351 points
+Martha 	 273 points
+Pool 	5 tiles
+Bob, your tiles are: A1 F4 D2 O1 E1 I1 R1 
+
+I just want to be friends
+
+Turn time: 58.128 seconds.
+Bobenters: 737 D FAG
+Word score 24
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.  T I M I D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I F   D A D   V        9
+10  Y 3       B A     T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       s     2   12
+13    O I       B R A U N C H       13
+14    L       H O I S T   O   2.    14
+15  S A L P I A N S       G     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 375 points
+Martha 	 273 points
+Pool 	2 tiles
+Martha, your tiles are: U1 T1 N1 I1 Y4 E1 O1 
+
+Its hard for me to concentrate around you
+
+Turn time: 65.054 seconds.
+Marthaenters: 7912 A GOEY
+Word score 24
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.  T I M I D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I F   D A D   V        9
+10  Y 3       B A     T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       s     2   12
+13    O I       B R A U N C H       13
+14    L       H O I S T   O   2.    14
+15  S A L P I A N S       G O E Y   15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 375 points
+Martha 	 297 points
+Pool 	0 tiles
+Bob, your tiles are: D2 O1 E1 I1 R1 W4 T1 
+
+I'd drink your bath water
+
+Turn time: 65.498 seconds.
+Bobenters: 658 D TWIN
+Word score 21
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       T       2     3.   1
+ 2    2.      3   W   3       2.     2
+ 3      2.  T I M I D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I F   D A D   V        9
+10  Y 3       B A     T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       s     2   12
+13    O I       B R A U N C H       13
+14    L       H O I S T   O   2.    14
+15  S A L P I A N S       G O E Y   15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 396 points
+Martha 	 297 points
+Pool 	0 tiles
+Martha, your tiles are: U1 T1 N1 I1 
+
+Crappy tiles,,,
+
+Turn time: 0.01 seconds.
+Marthaenters: 772 A OINT
+Word score 12
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       T       2     3.   1
+ 2    2.      3   W   3       2.     2
+ 3      2.  T I M I D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2     E 2   T A J   K        7
+ 8  F     2   R   d E L U G E   3.   8
+ 9  A   2     I F   D A D   V        9
+10  Y 3       B A     T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       s     2   12
+13    O I N T   B R A U N C H       13
+14    L       H O I S T   O   2.    14
+15  S A L P I A N S       G O E Y   15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 396 points
+Martha 	 309 points
+Pool 	0 tiles
+Bob, your tiles are: D2 O1 E1 I1 R1 
+
+Emmm,,,
+
+Turn time: 0.079 seconds.
+Bobenters: 704 D CIDER
+Word score 10
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       T       2     3.   1
+ 2    2.      3   W   3       2.     2
+ 3      2.  T I M I D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2 I   E 2   T A J   K        7
+ 8  F     D   R   d E L U G E   3.   8
+ 9  A   2 E   I F   D A D   V        9
+10  Y 3   R   B A     T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P       s     2   12
+13    O I N T   B R A U N C H       13
+14    L       H O I S T   O   2.    14
+15  S A L P I A N S       G O E Y   15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 406 points
+Martha 	 309 points
+Pool 	0 tiles
+Martha, your tiles are: U1 I1 
+
+Why?
+
+Turn time: 0.002 seconds.
+Marthaenters: 768 A PI
+Word score 8
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       T       2     3.   1
+ 2    2.      3   W   3       2.     2
+ 3      2.  T I M I D       2.       3
+ 4  2     V E N I N E     2.    2    4
+ 5          2.      N O 2.           5
+ 6    3   C A Z     O X       3      6
+ 7      2 I   E 2   T A J   K        7
+ 8  F     D   R   d E L U G E   3.   8
+ 9  A   2 E   I F   D A D   V        9
+10  Y 3   R   B A     T     E 3     10
+11  E M     W A G E R E R   L       11
+12  R O Q U E S   P I     s     2   12
+13    O I N T   B R A U N C H       13
+14    L       H O I S T   O   2.    14
+15  S A L P I A N S       G O E Y   15
+
+    A B C D E F G H I J K L M N O 
+
+Bob 	 406 points
+Martha 	 317 points
+Pool 	0 tiles
+Bob, your tiles are: O1 
+
+Its my first time, I swear
+
+Turn time: 0.0 seconds.
+Bobenters: 7812 A OO
+Word score 8
+Bob 	 415 points
+Martha 	 316 points
+Bob wins
+Avg time for Bob: 15.837071428571429
+Avg time for Martha: 12.982000000000001
+GAME OVER

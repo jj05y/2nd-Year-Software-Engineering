@@ -1,0 +1,655 @@
+#########################################################################
+TESTING PARSING:
+#########################################################################
+
+--------------------------------------------------------------------
+TESTING PARSING CORRECT INPUT
+--------------------------------------------------------------------
+***MVPScrabble***
+Please enter up to 4 player names ("done" when finished)
+---Made player---
+Bob
+
+Its your turn
+Player name: Bob
+Current score : 0
+|N 1||I 1||T 1||L 1||V 4||O 1||A 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 0
+|S 1||T 1||A 1||R 1||Z 10||T 1||D 2|
+
+row: 7 col: 7 dir: 1 word: STAR
+
+Bob played STAR and recieved 8 points.
+Its your turn
+Player name: Bob
+Current score : 8
+|Z 10||T 1||D 2||I 1||I 1||L 1||M 3|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 8
+|N 1||O 1||P 3||E 1||O 1||E 1||E 1|
+
+Game Over, final board state:
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+     ----------------------------------------------------------- 
+  0 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 0 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  1 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 1 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  2 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 2 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  3 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 3 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  4 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 4 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  5 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 5 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  6 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 6 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  7 |t_w|   |   |d_l|   |   |   |[S]|[T]|[A]|[R]|d_l|   |   |t_w| 7 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  8 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 8 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  9 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 9 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 10 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 10 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 11 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 11 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 12 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 12 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 13 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 13 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 14 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 14 
+     ----------------------------------------------------------- 
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+
+1:	Bob	8
+Congratulations Bob!!!!
+After parsing the string "7,7 ACROSS STAR"
+Checking each letter of "STAR" individually.
+Actual result: S
+Expected result: S
+'S' is there.
+
+Actual result: T
+Expected result: T
+'T' is there.
+
+Actual result: A
+Expected result: A
+'A' is there.
+
+Actual result: R
+Expected result: R
+'R' is there.
+
+
+--------------------------------------------------------------------
+TESTING PARSING INCORRECT INPUT
+--------------------------------------------------------------------
+Here Bob plays a lonely game and firstly inputs incorrect input
+ and then inputs an incorrect direction
+***MVPScrabble***
+Please enter up to 4 player names ("done" when finished)
+---Made player---
+Bob
+
+Its your turn
+Player name: Bob
+Current score : 0
+|E 1||V 4||Y 4||T 1||L 1||A 1||E 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 0
+|S 1||T 1||A 1||R 1||O 1||Y 4||E 1|
+
+row: 22 col: 3 dir: 1 word: STAR
+Invalid Co-ordinates
+Please re-enter input, type "help" for help.
+
+row: 7 col: 7 dir: 7 word: STAR
+Invalid Direction
+Please re-enter input, type "help" for help.
+
+Game Over, final board state:
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+     ----------------------------------------------------------- 
+  0 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 0 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  1 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 1 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  2 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 2 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  3 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 3 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  4 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 4 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  5 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 5 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  6 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 6 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  7 |t_w|   |   |d_l|   |   |   | * |   |   |   |d_l|   |   |t_w| 7 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  8 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 8 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  9 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 9 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 10 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 10 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 11 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 11 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 12 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 12 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 13 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 13 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 14 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 14 
+     ----------------------------------------------------------- 
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+
+1:	Bob	0
+Congratulations Bob!!!!
+
+--------------------------------------------------------------------
+TESTING HELP PASS RENEW QUIT:
+--------------------------------------------------------------------
+
+Here a scripted game is played, with two players.
+Player one, Bob, asks for help and then passes his go.
+Player two, Ted, then changes the letters ING and forgoes his turn.
+Bob then quits the game.
+
+***MVPScrabble***
+Please enter up to 4 player names ("done" when finished)
+---Made player---
+Bob
+
+---Made player---
+Ted
+
+Its your turn
+Player name: Bob
+Current score : 0
+|E 1||J 8||D 2||N 1||S 1||D 2||T 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 0
+|N 1||U 1||L 1||L 1||N 1||L 1||C 3|
+
+This is the help menu *Queue elevator music*
+To play a word, enter it in a format of coordinates, direction and the word
+For example: '7,7 Across bananas'
+Type 'Exchange XYZ' to exchange letters XYZ
+Type 'Pass' to pass your go
+Type 'Finished' to quit the game
+All input is case insensitve
+
+Please re-enter input, type "help" for help.
+
+Turn Passed
+
+Its your turn
+Player name: Ted
+Current score : 0
+|A 1||A 1||N 1||U 1||U 1||B 3||O 1|
+
+A forced frame as been built for this test:
+Player name: Ted
+Current score : 0
+|B 3||A 1||N 1||G 2||I 1||N 1||G 2|
+
+Letters Exchanged
+Player name: Ted
+Current score : 0
+|B 3||A 1||N 1||G 2||Q 10||K 5||C 3|
+
+Its your turn
+Player name: Bob
+Current score : 0
+|N 1||U 1||L 1||L 1||N 1||L 1||C 3|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 0
+|N 1||U 1||L 1||L 1||A 1||A 1||O 1|
+
+Game Over, final board state:
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+     ----------------------------------------------------------- 
+  0 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 0 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  1 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 1 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  2 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 2 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  3 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 3 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  4 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 4 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  5 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 5 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  6 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 6 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  7 |t_w|   |   |d_l|   |   |   | * |   |   |   |d_l|   |   |t_w| 7 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  8 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 8 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  9 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 9 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 10 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 10 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 11 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 11 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 12 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 12 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 13 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 13 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 14 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 14 
+     ----------------------------------------------------------- 
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+
+1:	Bob	0
+2:	Ted	0
+Congratulations Bob!!!!
+#########################################################################
+TESTING SCORING:
+#########################################################################
+
+--------------------------------------------------------------------
+TESTING CONVENTIONAL SCORING:
+--------------------------------------------------------------------
+***MVPScrabble***
+Please enter up to 4 player names ("done" when finished)
+---Made player---
+Bob
+
+---Made player---
+Ted
+
+Its your turn
+Player name: Bob
+Current score : 0
+|I 1||A 1||S 1||D 2||E 1||W 4||L 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 0
+|H 4||E 1||L 1||L 1||O 1||I 1||P 3|
+
+row: 7 col: 5 dir: 1 word: HELLO
+
+Bob played HELLO and recieved 16 points.
+Its your turn
+Player name: Ted
+Current score : 0
+|C 3||E 1||E 1||D 2||I 1||K 5||S 1|
+
+A forced frame as been built for this test:
+Player name: Ted
+Current score : 0
+|O 1||U 1||T 1||S 1||I 1||D 2||E 1|
+
+row: 7 col: 9 dir: 0 word: OUTSIDE
+
+Ted played OUTSIDE and recieved 12 points.
+Its your turn
+Player name: Bob
+Current score : 16
+|I 1||P 3||O 1||M 3||E 1||O 1||V 4|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 16
+|N 1||O 1||P 3||E 1||_ 0||Q 10||E 1|
+
+Game Over, final board state:
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+     ----------------------------------------------------------- 
+  0 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 0 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  1 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 1 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  2 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 2 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  3 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 3 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  4 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 4 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  5 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 5 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  6 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 6 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  7 |t_w|   |   |d_l|   |[H]|[E]|[L]|[L]|[O]|   |d_l|   |   |t_w| 7 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  8 |   |   |d_l|   |   |   |d_l|   |d_l|[U]|   |   |d_l|   |   | 8 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  9 |   |t_l|   |   |   |t_l|   |   |   |[T]|   |   |   |t_l|   | 9 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 10 |   |   |   |   |d_w|   |   |   |   |[S]|d_w|   |   |   |   | 10 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 11 |d_l|   |   |d_w|   |   |   |d_l|   |[I]|   |d_w|   |   |d_l| 11 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 12 |   |   |d_w|   |   |   |d_l|   |d_l|[D]|   |   |d_w|   |   | 12 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 13 |   |d_w|   |   |   |t_l|   |   |   |[E]|   |   |   |d_w|   | 13 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 14 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 14 
+     ----------------------------------------------------------- 
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+
+1:	Bob	16
+2:	Ted	12
+Congratulations Bob!!!!
+Tests for conventional scoring
+------------------------------
+Actual result: 16
+Expected result: 16
+*PASS* Correct score given for first word played
+
+Actual result: 12
+Expected result: 12
+*PASS* Correct score given for 2nd word played conventionaly
+
+
+--------------------------------------------------------------------
+TESTING ADJACENT WORD SCORING:
+--------------------------------------------------------------------
+***MVPScrabble***
+Please enter up to 4 player names ("done" when finished)
+---Made player---
+Bob
+
+---Made player---
+Ted
+
+Its your turn
+Player name: Bob
+Current score : 0
+|W 4||T 1||O 1||Q 10||T 1||A 1||L 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 0
+|O 1||N 1||N 1||O 1||V 4||O 1||R 1|
+
+row: 7 col: 7 dir: 1 word: ON
+
+Bob played ON and recieved 4 points.
+Its your turn
+Player name: Ted
+Current score : 0
+|D 2||C 3||E 1||V 4||R 1||L 1||M 3|
+
+A forced frame as been built for this test:
+Player name: Ted
+Current score : 0
+|N 1||O 1||A 1||T 1||E 1||K 5||A 1|
+
+row: 6 col: 7 dir: 1 word: NO
+
+Ted played NO and recieved 8 points.
+Its your turn
+Player name: Bob
+Current score : 4
+|N 1||O 1||V 4||O 1||R 1||P 3||N 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 4
+|N 1||O 1||P 3||E 1||A 1||E 1||R 1|
+
+Game Over, final board state:
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+     ----------------------------------------------------------- 
+  0 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 0 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  1 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 1 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  2 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 2 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  3 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 3 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  4 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 4 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  5 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 5 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  6 |   |   |d_l|   |   |   |d_l|[N]|[O]|   |   |   |d_l|   |   | 6 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  7 |t_w|   |   |d_l|   |   |   |[O]|[N]|   |   |d_l|   |   |t_w| 7 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  8 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 8 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  9 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 9 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 10 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 10 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 11 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 11 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 12 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 12 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 13 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 13 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 14 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 14 
+     ----------------------------------------------------------- 
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+
+1:	Ted	8
+2:	Bob	4
+Congratulations Ted!!!!
+Tests for adjacent word scoring
+-------------------------------
+Actual result: 8
+Expected result: 8
+*PASS* Correct score given for first word played
+
+Actual result: 4
+Expected result: 4
+*PASS* Correct score given for 2nd word played creating adjacent words
+
+
+--------------------------------------------------------------------
+TESTING SUFFIX WORD SCORING:
+--------------------------------------------------------------------
+***MVPScrabble***
+Please enter up to 4 player names ("done" when finished)
+---Made player---
+Bob
+
+---Made player---
+Ted
+
+Its your turn
+Player name: Bob
+Current score : 0
+|V 4||R 1||B 3||E 1||N 1||H 4||O 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 0
+|O 1||U 1||T 1||_ 0||E 1||E 1||X 8|
+
+row: 7 col: 5 dir: 1 word: OUT
+
+Bob played OUT and recieved 6 points.
+Its your turn
+Player name: Ted
+Current score : 0
+|F 4||A 1||E 1||A 1||_ 0||N 1||I 1|
+
+A forced frame as been built for this test:
+Player name: Ted
+Current score : 0
+|O 1||U 1||T 1||S 1||I 1||D 2||E 1|
+
+row: 7 col: 5 dir: 1 word: OUTSIDE
+
+Ted played OUTSIDE and recieved 9 points.
+Its your turn
+Player name: Bob
+Current score : 6
+|_ 0||E 1||E 1||X 8||I 1||M 3||O 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 6
+|N 1||O 1||P 3||E 1||L 1||L 1||R 1|
+
+Game Over, final board state:
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+     ----------------------------------------------------------- 
+  0 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 0 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  1 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 1 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  2 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 2 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  3 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 3 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  4 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 4 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  5 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 5 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  6 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 6 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  7 |t_w|   |   |d_l|   |[O]|[U]|[T]|[S]|[I]|[D]|[E]|   |   |t_w| 7 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  8 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 8 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  9 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 9 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 10 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 10 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 11 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 11 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 12 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 12 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 13 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 13 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 14 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 14 
+     ----------------------------------------------------------- 
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+
+1:	Ted	9
+2:	Bob	6
+Congratulations Ted!!!!
+Tests for suffix word scoring
+-----------------------------
+Actual result: 9
+Expected result: 9
+*PASS* Correct score given for first word played
+
+Actual result: 6
+Expected result: 6
+*PASS* Correct score given for 2nd word played using a suffix
+
+
+--------------------------------------------------------------------
+TESTING PREFIX WORD SCORING:
+--------------------------------------------------------------------
+***MVPScrabble***
+Please enter up to 4 player names ("done" when finished)
+---Made player---
+Bob
+
+---Made player---
+Ted
+
+Its your turn
+Player name: Bob
+Current score : 0
+|I 1||V 4||U 1||A 1||S 1||W 4||U 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 0
+|S 1||I 1||D 2||E 1||L 1||M 3||T 1|
+
+row: 7 col: 5 dir: 1 word: SIDE
+
+Bob played SIDE and recieved 10 points.
+Its your turn
+Player name: Ted
+Current score : 0
+|O 1||A 1||R 1||L 1||T 1||I 1||E 1|
+
+A forced frame as been built for this test:
+Player name: Ted
+Current score : 0
+|I 1||N 1||S 1||I 1||D 2||E 1||V 4|
+
+row: 7 col: 3 dir: 1 word: INSIDE
+
+Ted played INSIDE and recieved 8 points.
+Its your turn
+Player name: Bob
+Current score : 10
+|L 1||M 3||T 1||E 1||E 1||O 1||A 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 10
+|N 1||O 1||P 3||E 1||A 1||A 1||E 1|
+
+Game Over, final board state:
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+     ----------------------------------------------------------- 
+  0 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 0 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  1 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 1 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  2 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 2 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  3 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 3 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  4 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 4 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  5 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 5 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  6 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 6 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  7 |t_w|   |   |[I]|[N]|[S]|[I]|[D]|[E]|   |   |d_l|   |   |t_w| 7 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  8 |   |   |d_l|   |   |   |d_l|   |d_l|   |   |   |d_l|   |   | 8 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  9 |   |t_l|   |   |   |t_l|   |   |   |t_l|   |   |   |t_l|   | 9 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 10 |   |   |   |   |d_w|   |   |   |   |   |d_w|   |   |   |   | 10 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 11 |d_l|   |   |d_w|   |   |   |d_l|   |   |   |d_w|   |   |d_l| 11 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 12 |   |   |d_w|   |   |   |d_l|   |d_l|   |   |   |d_w|   |   | 12 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 13 |   |d_w|   |   |   |t_l|   |   |   |t_l|   |   |   |d_w|   | 13 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 14 |t_w|   |   |d_l|   |   |   |t_w|   |   |   |d_l|   |   |t_w| 14 
+     ----------------------------------------------------------- 
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+
+1:	Bob	10
+2:	Ted	8
+Congratulations Bob!!!!
+Tests for prefix word scoring
+------------------------------
+Actual result: 10
+Expected result: 10
+*PASS* Correct score given for first word played
+
+Actual result: 8
+Expected result: 8
+*PASS* Correct score given for 2nd word played using a prefix
+
+
+
+Conclusion:
+Number of automated tests passed vs number of automated tests
+Actual result: 12
+Expected result: 12
+***All Tests Passed***
+
+

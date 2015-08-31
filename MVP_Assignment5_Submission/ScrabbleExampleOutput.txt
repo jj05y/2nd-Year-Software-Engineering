@@ -1,0 +1,1107 @@
+ ################################################
+#                                                #
+#    This is the output from Scrabble.jar        #
+#    MVP plays against bot, words are accepted   #
+#	 or challenged by the bot as necessary.  #   
+#    MVP then passes until the end of the game   #
+#    This output is played with the              #
+#    comprehensive bot                           #
+#                                                #
+ ################################################
+
+WELCOME TO SCRABBLE
+Enter player name: 
+MVP
+BOT draws a L
+MVP draws a W
+BOT starts
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.          2.           5
+ 6    3       3       3       3      6
+ 7      2       2   2       2        7
+ 8  3.    2       2.      2     3.   8
+ 9      2       2   2       2        9
+10    3       3       3       3     10
+11          2.          2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 0 points
+MVP 	 0 points
+Pool 	93 tiles
+BOT, your tiles are: U1 T1 S1 T1 O1 M3 S1 
+
+This is getting out of hand
+
+/n first timer yo /n
+Turn time: 0.336 seconds.
+BOTenters: 728 A UTMOSTS
+Word score 70
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.          2.           5
+ 6    3       3       3       3      6
+ 7      2       2   2       2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   2       2        9
+10    3       3       3       3     10
+11          2.          2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 70 points
+MVP 	 0 points
+Pool 	86 tiles
+MVP, your tiles are: W4 N1 C3 O1 E1 A1 Z10 
+Enter your move: I8 D TOWN
+Word score 8
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.          2.           5
+ 6    3       3       3       3      6
+ 7      2       2   2       2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       2        9
+10    3       3     W 3       3     10
+11          2.      N   2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 70 points
+MVP 	 8 points
+Pool 	79 tiles
+BOT, your tiles are: X8 E1 A1 A1 E1 G2 A1 
+
+Crappy tiles,,,
+
+Turn time: 1.544 seconds.
+BOTenters: 6910 D EXAM
+Word score 29
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.        E 2.           5
+ 6    3       3       X       3      6
+ 7      2       2   2 A     2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       2        9
+10    3       3     W 3       3     10
+11          2.      N   2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 99 points
+MVP 	 8 points
+Pool 	76 tiles
+MVP, your tiles are: C3 E1 A1 Z10 O1 H4 S1 
+Enter your move: I11 A NOZ
+Word score 24
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.        E 2.           5
+ 6    3       3       X       3      6
+ 7      2       2   2 A     2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       2        9
+10    3       3     W 3       3     10
+11          2.      N O Z           11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 99 points
+MVP 	 32 points
+Pool 	73 tiles
+BOT, your tiles are: A1 E1 G2 A1 D2 E1 I1 
+
+Its getting dark in here
+
+BOTenters: CHALLENGE
+Challenge successful. Removing tiles and updating scores.
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2       2.       3
+ 4  2     2.      2       2.    2    4
+ 5          2.        E 2.           5
+ 6    3       3       X       3      6
+ 7      2       2   2 A     2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       2        9
+10    3       3     W 3       3     10
+11          2.      N   2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 99 points
+MVP 	 8 points
+Pool 	73 tiles
+BOT, your tiles are: A1 E1 G2 A1 D2 E1 I1 
+
+Before every game I sacrifice a lamb to my lord satan, and have a mocha
+
+Turn time: 2.318 seconds.
+BOTenters: 6712 D ADAGES
+Word score 16
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5          2.        E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       2        9
+10    3       3     W 3       3     10
+11          2.      N   2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 115 points
+MVP 	 8 points
+Pool 	71 tiles
+MVP, your tiles are: C3 E1 A1 H4 S1 F4 C3 
+Enter your move: M8 D TEA
+Word score 4
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5          2.        E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       E        9
+10    3       3     W 3     A 3     10
+11          2.      N   2.          11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 115 points
+MVP 	 12 points
+Pool 	66 tiles
+BOT, your tiles are: E1 I1 T1 V4 P3 R1 N1 
+
+I can't even, lol
+
+Turn time: 6.245 seconds.
+BOTenters: 755 A VINTNER
+Word score 40
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5          2.        E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       E        9
+10    3       3     W 3     A 3     10
+11          V I N T N E R           11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 155 points
+MVP 	 12 points
+Pool 	64 tiles
+MVP, your tiles are: C3 H4 S1 F4 C3 Y4 R1 
+Enter your move: EXCHANGE CHS
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5          2.        E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       E        9
+10    3       3     W 3     A 3     10
+11          V I N T N E R           11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 155 points
+MVP 	 12 points
+Pool 	58 tiles
+BOT, your tiles are: P3 O1 E1 T1 C3 N1 W4 
+
+Say what?
+
+Turn time: 8.571 seconds.
+BOTenters: 693 A TWOPENCE
+Word score 80
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       E        9
+10    3       3     W 3     A 3     10
+11          V I N T N E R           11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 235 points
+MVP 	 12 points
+Pool 	58 tiles
+MVP, your tiles are: F4 C3 Y4 R1 U1 H4 B3 
+Enter your move: D5 D TFCY
+Error: The word entered does not fit with the letters on the board.
+MVP, your tiles are: F4 C3 Y4 R1 U1 H4 B3 
+Enter your move: C5 D TFCY
+Word score 15
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3 F     3       X   G   3      6
+ 7      C       2   2 A   E 2        7
+ 8  3.  Y 2       U T M O S T S 3.   8
+ 9      2       2   O       E        9
+10    3       3     W 3     A 3     10
+11          V I N T N E R           11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 235 points
+MVP 	 27 points
+Pool 	51 tiles
+BOT, your tiles are: *0 O1 S1 R1 A1 L1 I1 
+
+I can't even, lol
+
+BOTenters: CHALLENGE
+Challenge successful. Removing tiles and updating scores.
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       E        9
+10    3       3     W 3     A 3     10
+11          V I N T N E R           11
+12  2     2.      2       2.    2   12
+13      2.      2   2       2.      13
+14    2.      3       3       2.    14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 235 points
+MVP 	 12 points
+Pool 	51 tiles
+BOT, your tiles are: *0 O1 S1 R1 A1 L1 I1 
+
+What are you doing?
+
+Turn time: 1.315 seconds.
+BOTenters: 7214 D SAILORS
+Word score 24
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   2       2.R     13
+14    2.      3       3       S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 259 points
+MVP 	 12 points
+Pool 	48 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2       2   O       E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   2       2.R     13
+14    2.      3       3       S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 259 points
+MVP 	 12 points
+Pool 	42 tiles
+BOT, your tiles are: *0 G2 S1 R1 D2 G2 E1 
+
+Your hair tastes like strawberries
+
+Turn time: 0.982 seconds.
+BOTenters: 735 A REGGOS
+Word score 27
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   2       2.R     13
+14    2.      3       3       S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 286 points
+MVP 	 12 points
+Pool 	42 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   2       2.R     13
+14    2.      3       3       S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 286 points
+MVP 	 12 points
+Pool 	37 tiles
+BOT, your tiles are: *0 D2 Y4 I1 N1 A1 Q10 
+
+CAN YOU FEEL THE LOVE TONIGHT?
+
+Turn time: 1.763 seconds.
+BOTenters: 779 A QINDAR
+Word score 52
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       3       S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 338 points
+MVP 	 12 points
+Pool 	37 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       3       S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 338 points
+MVP 	 12 points
+Pool 	32 tiles
+BOT, your tiles are: *0 Y4 D2 *0 U1 I1 E1 
+
+Will you get me a coffee?
+
+Turn time: 0.253 seconds.
+BOTenters: 7810 A DYErS
+Word score 28
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 366 points
+MVP 	 12 points
+Pool 	32 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   2     A 2.       3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 366 points
+MVP 	 12 points
+Pool 	28 tiles
+BOT, your tiles are: *0 U1 I1 E1 D2 E1 H4 
+
+Its getting dark in here
+
+Turn time: 1.648 seconds.
+BOTenters: 679 A HExAD
+Word score 24
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   H E x A D        3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 390 points
+MVP 	 12 points
+Pool 	28 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    2       3.      2     3.   1
+ 2    2.      3       3       2.     2
+ 3      2.      2   H E x A D        3
+ 4  2     2.      2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 390 points
+MVP 	 12 points
+Pool 	24 tiles
+BOT, your tiles are: U1 I1 E1 A1 L1 P3 I1 
+
+What do you think about the magical yellow unicorn who dances on the rainbow with a spoonful of blue cheese dressing? 
+
+Turn time: 19.898 seconds.
+BOTenters: 654 D PILAW
+Word score 26
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    P       3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3      2.L     2   H E x A D        3
+ 4  2     A       2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 416 points
+MVP 	 12 points
+Pool 	24 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: pass
+    A B C D E F G H I J K L M N O 
+
+ 1  3.    P       3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3      2.L     2   H E x A D        3
+ 4  2     A       2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 416 points
+MVP 	 12 points
+Pool 	20 tiles
+BOT, your tiles are: U1 E1 I1 O1 L1 I1 T1 
+
+Soon
+
+Turn time: 19.704 seconds.
+BOTenters: 651 A LOUPIT
+Word score 24
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3      2.L     2   H E x A D        3
+ 4  2     A       2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 440 points
+MVP 	 12 points
+Pool 	20 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3      2.L     2   H E x A D        3
+ 4  2     A       2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 440 points
+MVP 	 12 points
+Pool 	15 tiles
+BOT, your tiles are: E1 I1 J8 N1 M3 A1 R1 
+
+I just want to be friends
+
+Turn time: 41.603 seconds.
+BOTenters: 671 A JAILER
+Word score 26
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A       2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 466 points
+MVP 	 12 points
+Pool 	15 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A       2       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 466 points
+MVP 	 12 points
+Pool 	10 tiles
+BOT, your tiles are: N1 M3 I1 E1 F4 A1 N1 
+
+Mother told me it would be like this
+
+Turn time: 26.592 seconds.
+BOTenters: 684 A AMINE
+Word score 23
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 489 points
+MVP 	 12 points
+Pool 	10 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2       2   2 A   E 2        7
+ 8  3.    2       U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       3     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.      2       2.  O 2   12
+13      2.      2   Q I N D A R     13
+14    2.      3       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 489 points
+MVP 	 12 points
+Pool 	6 tiles
+BOT, your tiles are: F4 A1 N1 I1 O1 L1 T1 
+
+Does this rag smell like chloroform to you?
+
+Turn time: 52.731 seconds.
+BOTenters: 716 D OLEFIANT
+Word score 21
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2     O 2   2 A   E 2        7
+ 8  3.    2   L   U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       F     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.  A   2       2.  O 2   12
+13      2.    N 2   Q I N D A R     13
+14    2.      T       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 510 points
+MVP 	 12 points
+Pool 	6 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.      2     3.   1
+ 2    2.  I   3       3       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2     O 2   2 A   E 2        7
+ 8  3.    2   L   U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       F     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.  A   2       2.  O 2   12
+13      2.    N 2   Q I N D A R     13
+14    2.      T       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 510 points
+MVP 	 12 points
+Pool 	0 tiles
+BOT, your tiles are: I1 V4 K5 E1 O1 I1 E1 
+
+Sometimes when I think too hard, peoples heads explode
+
+Turn time: 16.571 seconds.
+BOTenters: 6510 D OKE
+Word score 17
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.  O   2     3.   1
+ 2    2.  I   3       K       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2     O 2   2 A   E 2        7
+ 8  3.    2   L   U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       F     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.  A   2       2.  O 2   12
+13      2.    N 2   Q I N D A R     13
+14    2.      T       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 527 points
+MVP 	 12 points
+Pool 	0 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.  O   2     3.   1
+ 2    2.  I   3       K       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G   3      6
+ 7      2     O 2   2 A   E 2        7
+ 8  3.    2   L   U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       F     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.  A   2       2.  O 2   12
+13      2.    N 2   Q I N D A R     13
+14    2.      T       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 527 points
+MVP 	 12 points
+Pool 	0 tiles
+BOT, your tiles are: I1 V4 E1 I1 E1 
+
+What is this?
+
+Turn time: 0.06 seconds.
+BOTenters: 7012 A GIVE
+Word score 16
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.  O   2     3.   1
+ 2    2.  I   3       K       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G I V E    6
+ 7      2     O 2   2 A   E 2        7
+ 8  3.    2   L   U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       F     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.  A   2       2.  O 2   12
+13      2.    N 2   Q I N D A R     13
+14    2.      T       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 543 points
+MVP 	 12 points
+Pool 	0 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.  O   2     3.   1
+ 2    2.  I   3       K       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G I V E    6
+ 7      2     O 2   2 A   E 2        7
+ 8  3.    2   L   U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3       F     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.  A   2       2.  O 2   12
+13      2.    N 2   Q I N D A R     13
+14    2.      T       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 543 points
+MVP 	 12 points
+Pool 	0 tiles
+BOT, your tiles are: I1 E1 
+
+I just feel like you don’t appreciate me anymore.
+
+Turn time: 0.001 seconds.
+BOTenters: 745 A EF
+Word score 11
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.  O   2     3.   1
+ 2    2.  I   3       K       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G I V E    6
+ 7      2     O 2   2 A   E 2        7
+ 8  3.    2   L   U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3     E F     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.  A   2       2.  O 2   12
+13      2.    N 2   Q I N D A R     13
+14    2.      T       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 554 points
+MVP 	 12 points
+Pool 	0 tiles
+MVP, your tiles are: R1 U1 H4 B3 B3 R1 U1 
+Enter your move: PASS
+    A B C D E F G H I J K L M N O 
+
+ 1  L O U P I T   3.  O   2     3.   1
+ 2    2.  I   3       K       2.     2
+ 3  J A I L E R 2   H E x A D        3
+ 4  2     A M I N E       D     2    4
+ 5      T W O P E N C E 2.A          5
+ 6    3       3       X   G I V E    6
+ 7      2     O 2   2 A   E 2        7
+ 8  3.    2   L   U T M O S T S 3.   8
+ 9      2   R E G G O S     E A      9
+10    3     E F     W 3     A I     10
+11          V I N T N E R     L     11
+12  2     2.  A   2       2.  O 2   12
+13      2.    N 2   Q I N D A R     13
+14    2.      T       D Y E r S     14
+15  3.    2       3.      2     3.  15
+
+    A B C D E F G H I J K L M N O 
+
+BOT 	 554 points
+MVP 	 12 points
+Pool 	0 tiles
+BOT, your tiles are: I1 
+
+Its my first time, I swear
+
+Turn time: 0.001 seconds.
+BOTenters: 7612 D IDE
+Word score 8
+BOT 	 576 points
+MVP 	 -2 points
+BOT wins
+GAME OVER

@@ -1,0 +1,190 @@
+***MVPScrabble***
+Please enter up to 4 player names ("done" when finished)
+---Made player---
+Bob
+
+---Made player---
+Ted
+
+---Made player---
+Fred
+
+Its your turn
+Player name: Bob
+Current score : 0
+|I 1||P 3||G 2||L 1||Y 4||A 1||B 3|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 0
+|H 4||E 1||L 1||L 1||O 1||E 1||E 1|
+
+row: 7 col: 5 dir: 1 word: HELLO
+
+Bob played HELLO and recieved 16 points.
+Its your turn
+Player name: Ted
+Current score : 0
+|T 1||W 4||H 4||Q 10||A 1||A 1||E 1|
+
+A forced frame as been built for this test:
+Player name: Ted
+Current score : 0
+|O 1||U 1||T 1||S 1||I 1||D 2||E 1|
+
+row: 7 col: 9 dir: 0 word: OUTSIDE
+
+Ted played OUTSIDE and recieved 12 points.
+Its your turn
+Player name: Fred
+Current score : 0
+|E 1||S 1||G 2||T 1||E 1||N 1||U 1|
+
+A forced frame as been built for this test:
+Player name: Fred
+Current score : 0
+|H 4||A 1||N 1||D 2||P 3||Q 10||W 4|
+
+row: 7 col: 5 dir: 0 word: HAND
+
+Fred played HAND and recieved 10 points.
+Its your turn
+Player name: Bob
+Current score : 16
+|E 1||E 1||U 1||K 5||A 1||D 2||I 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 16
+|D 2||E 1||C 3||K 5||S 1||I 1||I 1|
+
+row: 10 col: 5 dir: 1 word: DECKS
+
+Bob played DECKS and recieved 12 points.
+Its your turn
+Player name: Ted
+Current score : 12
+|O 1||N 1||U 1||B 3||R 1||B 3||L 1|
+
+A forced frame as been built for this test:
+Player name: Ted
+Current score : 12
+|D 2||E 1||S 1||I 1||S 1||T 1||K 5|
+
+row: 12 col: 9 dir: 1 word: DESIST
+
+Ted played DESIST and recieved 14 points.
+Its your turn
+Player name: Fred
+Current score : 10
+|H 4||P 3||Q 10||W 4||K 5||S 1||W 4|
+
+A forced frame as been built for this test:
+Player name: Fred
+Current score : 10
+|T 1||O 1||A 1||S 1||T 1||E 1||I 1|
+
+row: 8 col: 14 dir: 0 word: TOAST
+
+Fred played TOAST and recieved 6 points.
+Its your turn
+Player name: Bob
+Current score : 28
+|D 2||S 1||I 1||I 1||O 1||Y 4||W 4|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 28
+|M 3||E 1||A 1||T 1||S 1||V 4||N 1|
+
+row: 14 col: 5 dir: 1 word: MEATS
+
+Bob played MEATS and recieved 22 points.
+Its your turn
+Player name: Ted
+Current score : 26
+|D 2||K 5||E 1||M 3||H 4||I 1||A 1|
+
+A forced frame as been built for this test:
+Player name: Ted
+Current score : 26
+|A 1||B 3||N 1||O 1||R 1||M 3||A 1||L 1|
+
+row: 0 col: 7 dir: 0 word: ABNORMAL
+
+Ted played ABNORMAL and recieved 39 points.
+Its your turn
+Player name: Fred
+Current score : 16
+|T 1||E 1||I 1||X 8||E 1||Y 4||U 1|
+
+A forced frame as been built for this test:
+Player name: Fred
+Current score : 16
+|S 1||T 1||I 1||G 2||M 3||A 1||T 1||A 1|
+
+row: 0 col: 0 dir: 1 word: STIGMATA
+
+Fred played STIGMATA and recieved 39 points.
+Its your turn
+Player name: Bob
+Current score : 50
+|V 4||N 1||R 1||O 1||O 1||L 1||N 1|
+
+A forced frame as been built for this test:
+Player name: Bob
+Current score : 50
+|S 1||A 1||U 1||S 1||A 1||G 2||E 1||S 1|
+
+row: 0 col: 0 dir: 0 word: SAUSAGES
+
+Bob played SAUSAGES and recieved 30 points.
+Its your turn
+Player name: Ted
+Current score : 65
+|L 1||I 1||T 1||Q 10||R 1||S 1||A 1|
+
+A forced frame as been built for this test:
+Player name: Ted
+Current score : 65
+|N 1||O 1||P 3||E 1||A 1||G 2||M 3|
+
+Game Over, final board state:
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+     ----------------------------------------------------------- 
+  0 |[S]|[T]|[I]|[G]|[M]|[A]|[T]|[A]|   |   |   |d_l|   |   |t_w| 0 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  1 |[A]|d_w|   |   |   |t_l|   |[B]|   |t_l|   |   |   |d_w|   | 1 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  2 |[U]|   |d_w|   |   |   |d_l|[N]|d_l|   |   |   |d_w|   |   | 2 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  3 |[S]|   |   |d_w|   |   |   |[O]|   |   |   |d_w|   |   |d_l| 3 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  4 |[A]|   |   |   |d_w|   |   |[R]|   |   |d_w|   |   |   |   | 4 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  5 |[G]|t_l|   |   |   |t_l|   |[M]|   |t_l|   |   |   |t_l|   | 5 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  6 |[E]|   |d_l|   |   |   |d_l|[A]|d_l|   |   |   |d_l|   |   | 6 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  7 |[S]|   |   |d_l|   |[H]|[E]|[L]|[L]|[O]|   |d_l|   |   |t_w| 7 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  8 |   |   |d_l|   |   |[A]|d_l|   |d_l|[U]|   |   |d_l|   |[T]| 8 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  9 |   |t_l|   |   |   |[N]|   |   |   |[T]|   |   |   |t_l|[O]| 9 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 10 |   |   |   |   |d_w|[D]|[E]|[C]|[K]|[S]|d_w|   |   |   |[A]| 10 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 11 |d_l|   |   |d_w|   |   |   |d_l|   |[I]|   |d_w|   |   |[S]| 11 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 12 |   |   |d_w|   |   |   |d_l|   |d_l|[D]|[E]|[S]|[I]|[S]|[T]| 12 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 13 |   |d_w|   |   |   |t_l|   |   |   |[E]|   |   |   |d_w|   | 13 
+    |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+ 14 |t_w|   |   |d_l|   |[M]|[E]|[A]|[T]|[S]|   |d_l|   |   |t_w| 14 
+     ----------------------------------------------------------- 
+      0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  
+
+1:	Bob	80
+2:	Ted	65
+3:	Fred	55
+Congratulations Bob!!!!
